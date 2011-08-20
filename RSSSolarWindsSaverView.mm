@@ -159,7 +159,7 @@
         if (mainScreenOnly_!=NSOnState || mainScreen_==YES)
         {
             NSSize tSize;
-            const long i=1;
+            const int i=1;
             
             [self lockFocus];
             [[_view openGLContext] makeCurrentContext];
