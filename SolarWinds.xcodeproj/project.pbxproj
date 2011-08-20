@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F480C57A097AEEBE00C50694 /* SolarWinds.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A0F9D02D0F45F01A6F36E /* SolarWinds.h */; };
+		F480C57B097AEEBE00C50694 /* RSSSolarWindsSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A0F9F02D0F7E701A6F36E /* RSSSolarWindsSaverView.h */; };
+		F480C57C097AEEBE00C50694 /* Rgbhsl.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F1EA85085F2A2500EF4C0C /* Rgbhsl.h */; };
+		F480C57D097AEEBE00C50694 /* rsMath.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F1EA8F085F2A7500EF4C0C /* rsMath.h */; };
+		F480C57E097AEEBE00C50694 /* rsVec.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F1EA90085F2A7500EF4C0C /* rsVec.h */; };
+		F480C57F097AEEBE00C50694 /* rsTrigonometry.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F1EA91085F2A7500EF4C0C /* rsTrigonometry.h */; };
+		F480C580097AEEBE00C50694 /* rsMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F1EA92085F2A7500EF4C0C /* rsMatrix.h */; };
+		F480C581097AEEBE00C50694 /* rsQuat.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F1EA93085F2A7500EF4C0C /* rsQuat.h */; };
+		F480C583097AEEBE00C50694 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = F50EA14C02DF80580105AA39 /* ConfigureSheet.nib */; };
+		F480C584097AEEBE00C50694 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4F1EA7D085F297300EF4C0C /* Localizable.strings */; };
+		F480C586097AEEBE00C50694 /* SolarWinds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51A0F9B02D0F42901A6F36E /* SolarWinds.cpp */; };
+		F480C587097AEEBE00C50694 /* RSSSolarWindsSaverView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F51A0FA002D0F7E701A6F36E /* RSSSolarWindsSaverView.mm */; };
+		F480C588097AEEBE00C50694 /* Rgbhsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4F1EA87085F2A3200EF4C0C /* Rgbhsl.cpp */; };
+		F480C589097AEEBE00C50694 /* rsMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4F1EA89085F2A6700EF4C0C /* rsMatrix.cpp */; };
+		F480C58A097AEEBE00C50694 /* rsVec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4F1EA8A085F2A6700EF4C0C /* rsVec.cpp */; };
+		F480C58B097AEEBE00C50694 /* rsQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4F1EA8B085F2A6700EF4C0C /* rsQuat.cpp */; };
+		F480C58D097AEEBE00C50694 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		F480C58E097AEEBE00C50694 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A4B434FF93A1BDD85030BD /* ScreenSaver.framework */; };
+		F480C58F097AEEBE00C50694 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0117A9DE005D913B7F000001 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0117A9DE005D913B7F000001 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		02A4B434FF93A1BDD85030BD /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F480C595097AEEBE00C50694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		F480C596097AEEBE00C50694 /* Solar Winds.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar Winds.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DECFB90A7AAF6C00DB5E7E /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
+		F4F1EA7E085F297300EF4C0C /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = "../Common Resources OS X/English.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		F4F1EA80085F297A00EF4C0C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = "../Common Resources OS X/French.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		F4F1EA81085F298000EF4C0C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = "../Common Resources OS X/German.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		F4F1EA82085F298500EF4C0C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = "../Common Resources OS X/Italian.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		F4F1EA83085F298B00EF4C0C /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = "../Common Resources OS X/Spanish.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		F4F1EA84085F299000EF4C0C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = "../Common Resources OS X/sv.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		F4F1EA85085F2A2500EF4C0C /* Rgbhsl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Rgbhsl.h; path = ../rssavers/include/Rgbhsl/Rgbhsl.h; sourceTree = SOURCE_ROOT; };
+		F4F1EA87085F2A3200EF4C0C /* Rgbhsl.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Rgbhsl.cpp; path = ../rssavers/src/Rgbhsl/Rgbhsl.cpp; sourceTree = SOURCE_ROOT; };
+		F4F1EA89085F2A6700EF4C0C /* rsMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = rsMatrix.cpp; path = ../rssavers/src/rsMath/rsMatrix.cpp; sourceTree = SOURCE_ROOT; };
+		F4F1EA8A085F2A6700EF4C0C /* rsVec.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = rsVec.cpp; path = ../rssavers/src/rsMath/rsVec.cpp; sourceTree = SOURCE_ROOT; };
+		F4F1EA8B085F2A6700EF4C0C /* rsQuat.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = rsQuat.cpp; path = ../rssavers/src/rsMath/rsQuat.cpp; sourceTree = SOURCE_ROOT; };
+		F4F1EA8F085F2A7500EF4C0C /* rsMath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = rsMath.h; path = ../rssavers/include/rsMath/rsMath.h; sourceTree = SOURCE_ROOT; };
+		F4F1EA90085F2A7500EF4C0C /* rsVec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = rsVec.h; path = ../rssavers/include/rsMath/rsVec.h; sourceTree = SOURCE_ROOT; };
+		F4F1EA91085F2A7500EF4C0C /* rsTrigonometry.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = rsTrigonometry.h; path = ../rssavers/include/rsMath/rsTrigonometry.h; sourceTree = SOURCE_ROOT; };
+		F4F1EA92085F2A7500EF4C0C /* rsMatrix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = rsMatrix.h; path = ../rssavers/include/rsMath/rsMatrix.h; sourceTree = SOURCE_ROOT; };
+		F4F1EA93085F2A7500EF4C0C /* rsQuat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = rsQuat.h; path = ../rssavers/include/rsMath/rsQuat.h; sourceTree = SOURCE_ROOT; };
+		F50C04110305512E015F9A9F /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
+		F50EA14D02DF80580105AA39 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
+		F51A0F9B02D0F42901A6F36E /* SolarWinds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolarWinds.cpp; sourceTree = SOURCE_ROOT; };
+		F51A0F9D02D0F45F01A6F36E /* SolarWinds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolarWinds.h; sourceTree = "<group>"; };
+		F51A0F9F02D0F7E701A6F36E /* RSSSolarWindsSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSSolarWindsSaverView.h; sourceTree = SOURCE_ROOT; };
+		F51A0FA002D0F7E701A6F36E /* RSSSolarWindsSaverView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RSSSolarWindsSaverView.mm; sourceTree = SOURCE_ROOT; };
+		F5669B77035B511C0156B6DE /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Spanish; path = Spanish.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
+		F58C23BB02FC03AE01D5DD79 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
+		F5B5076802FC11A001F202BF /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
+		F5ED7F970390375B01C2800D /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/ConfigureSheet.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F480C58C097AEEBE00C50694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F480C58D097AEEBE00C50694 /* Cocoa.framework in Frameworks */,
+				F480C58E097AEEBE00C50694 /* ScreenSaver.framework in Frameworks */,
+				F480C58F097AEEBE00C50694 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* More Gears */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2442302CBB9D901AEC1CD /* Classes Utilities */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				F480C595097AEEBE00C50694 /* Info.plist */,
+			);
+			name = "More Gears";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4F1EA7D085F297300EF4C0C /* Localizable.strings */,
+				F50EA14C02DF80580105AA39 /* ConfigureSheet.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2444102CBBD1C01AEC1CD /* C++ code */,
+				F51A0F9F02D0F7E701A6F36E /* RSSSolarWindsSaverView.h */,
+				F51A0FA002D0F7E701A6F36E /* RSSSolarWindsSaverView.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0117A9DE005D913B7F000001 /* OpenGL.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				02A4B434FF93A1BDD85030BD /* ScreenSaver.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F480C596097AEEBE00C50694 /* Solar Winds.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F2442302CBB9D901AEC1CD /* Classes Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2443602CBBB7701AEC1CD /* rgbhsl */,
+				F5F2442402CBB9D901AEC1CD /* rsMath */,
+			);
+			name = "Classes Utilities";
+			sourceTree = "<group>";
+		};
+		F5F2442402CBB9D901AEC1CD /* rsMath */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2442502CBB9D901AEC1CD /* Headers */,
+				F5F2442602CBB9D901AEC1CD /* Sources */,
+			);
+			name = rsMath;
+			sourceTree = "<group>";
+		};
+		F5F2442502CBB9D901AEC1CD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F4F1EA8F085F2A7500EF4C0C /* rsMath.h */,
+				F4F1EA90085F2A7500EF4C0C /* rsVec.h */,
+				F4F1EA91085F2A7500EF4C0C /* rsTrigonometry.h */,
+				F4F1EA92085F2A7500EF4C0C /* rsMatrix.h */,
+				F4F1EA93085F2A7500EF4C0C /* rsQuat.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		F5F2442602CBB9D901AEC1CD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F4F1EA89085F2A6700EF4C0C /* rsMatrix.cpp */,
+				F4F1EA8A085F2A6700EF4C0C /* rsVec.cpp */,
+				F4F1EA8B085F2A6700EF4C0C /* rsQuat.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F5F2443602CBBB7701AEC1CD /* rgbhsl */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2443702CBBBA501AEC1CD /* Headers */,
+				F5F2443902CBBBA501AEC1CD /* Sources */,
+			);
+			name = rgbhsl;
+			sourceTree = "<group>";
+		};
+		F5F2443702CBBBA501AEC1CD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F4F1EA85085F2A2500EF4C0C /* Rgbhsl.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		F5F2443902CBBBA501AEC1CD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F4F1EA87085F2A3200EF4C0C /* Rgbhsl.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F5F2444102CBBD1C01AEC1CD /* C++ code */ = {
+			isa = PBXGroup;
+			children = (
+				F51A0F9D02D0F45F01A6F36E /* SolarWinds.h */,
+				F51A0F9B02D0F42901A6F36E /* SolarWinds.cpp */,
+			);
+			name = "C++ code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F480C579097AEEBE00C50694 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F480C57A097AEEBE00C50694 /* SolarWinds.h in Headers */,
+				F480C57B097AEEBE00C50694 /* RSSSolarWindsSaverView.h in Headers */,
+				F480C57C097AEEBE00C50694 /* Rgbhsl.h in Headers */,
+				F480C57D097AEEBE00C50694 /* rsMath.h in Headers */,
+				F480C57E097AEEBE00C50694 /* rsVec.h in Headers */,
+				F480C57F097AEEBE00C50694 /* rsTrigonometry.h in Headers */,
+				F480C580097AEEBE00C50694 /* rsMatrix.h in Headers */,
+				F480C581097AEEBE00C50694 /* rsQuat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F480C578097AEEBE00C50694 /* Solar Winds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F480C591097AEEBE00C50694 /* Build configuration list for PBXNativeTarget "Solar Winds" */;
+			buildPhases = (
+				F480C579097AEEBE00C50694 /* Headers */,
+				F480C582097AEEBE00C50694 /* Resources */,
+				F480C585097AEEBE00C50694 /* Sources */,
+				F480C58C097AEEBE00C50694 /* Frameworks */,
+				F480C590097AEEBE00C50694 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar Winds";
+			productInstallPath = "/Users/stephane/Library/Screen Savers";
+			productName = Xeverywhere;
+			productReference = F480C596097AEEBE00C50694 /* Solar Winds.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F44574D4097AEE9C00F07573 /* Build configuration list for PBXProject "SolarWinds" */;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Italian,
+				Spanish,
+				sv,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* More Gears */;
+			projectDirPath = "";
+			targets = (
+				F480C578097AEEBE00C50694 /* Solar Winds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F480C582097AEEBE00C50694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F480C583097AEEBE00C50694 /* ConfigureSheet.nib in Resources */,
+				F480C584097AEEBE00C50694 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F480C590097AEEBE00C50694 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F480C585097AEEBE00C50694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F480C586097AEEBE00C50694 /* SolarWinds.cpp in Sources */,
+				F480C587097AEEBE00C50694 /* RSSSolarWindsSaverView.mm in Sources */,
+				F480C588097AEEBE00C50694 /* Rgbhsl.cpp in Sources */,
+				F480C589097AEEBE00C50694 /* rsMatrix.cpp in Sources */,
+				F480C58A097AEEBE00C50694 /* rsVec.cpp in Sources */,
+				F480C58B097AEEBE00C50694 /* rsQuat.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4F1EA7D085F297300EF4C0C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F1EA7E085F297300EF4C0C /* English */,
+				F4F1EA80085F297A00EF4C0C /* French */,
+				F4F1EA81085F298000EF4C0C /* German */,
+				F4F1EA82085F298500EF4C0C /* Italian */,
+				F4F1EA83085F298B00EF4C0C /* Spanish */,
+				F4F1EA84085F299000EF4C0C /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+		F50EA14C02DF80580105AA39 /* ConfigureSheet.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50EA14D02DF80580105AA39 /* English */,
+				F58C23BB02FC03AE01D5DD79 /* French */,
+				F5B5076802FC11A001F202BF /* Italian */,
+				F50C04110305512E015F9A9F /* German */,
+				F5669B77035B511C0156B6DE /* Spanish */,
+				F5ED7F970390375B01C2800D /* sv */,
+				F4DECFB90A7AAF6C00DB5E7E /* Japanese */,
+			);
+			name = ConfigureSheet.nib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44574D5097AEE9C00F07573 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "-D__MACOSXSCREENSAVER__";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Development;
+		};
+		F44574D6097AEE9C00F07573 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "-D__MACOSXSCREENSAVER__";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Deployment;
+		};
+		F44574D7097AEE9C00F07573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "-D__MACOSXSCREENSAVER__";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Default;
+		};
+		F480C592097AEEBE00C50694 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SolarWinds;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F480C593097AEEBE00C50694 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Solar Winds";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F480C594097AEEBE00C50694 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SolarWinds;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44574D4097AEE9C00F07573 /* Build configuration list for PBXProject "SolarWinds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44574D5097AEE9C00F07573 /* Development */,
+				F44574D6097AEE9C00F07573 /* Deployment */,
+				F44574D7097AEE9C00F07573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F480C591097AEEBE00C50694 /* Build configuration list for PBXNativeTarget "Solar Winds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F480C592097AEEBE00C50694 /* Development */,
+				F480C593097AEEBE00C50694 /* Deployment */,
+				F480C594097AEEBE00C50694 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
